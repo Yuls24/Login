@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #dee1eb, #668cff); /* Fondo difuminado */
+    background: url("img/klipartz.com (65).png") no-repeat center center fixed; /* Fondo de imagen */
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column; /* Alinear elementos verticalmente */
+}
+
+.login-box {
+    background-color: #fcfcfc;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra */
+    width: 300px; /* Ancho del contenedor del formulario */
+    text-align: center; /* Centrar elementos internos */
+}
+
+.login-box h2 {
+    margin-bottom: 30px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Color del botón */
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Color del botón al pasar el mouse */
+}
+
+.signup-link {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.terms {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.terms a {
+    color: #4743c3; /* Color del enlace de términos y condiciones */
+}
